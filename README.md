@@ -63,8 +63,8 @@ git clone https://github.com/ros-perception/slam_gmapping.git
 * [turtlebot_teleop](http://wiki.ros.org/turtlebot_teleop) (allows the user to teleoperate a robot)
 
 ```
-cd /catkin_ws/src/slam_gmapping
-git clone  https://github.com/turtlebot/turtlebot.git
+cd /catkin_ws/src
+git clone https://github.com/turtlebot/turtlebot.git
 ```
 
 #### Building
@@ -72,8 +72,7 @@ To build from source, clone the latest version from this repository into your ca
 ```
 cd catkin_workspace/src
 git clone https://github.com/acampos074/HomeServiceRobot.git
-cd ../
-rosdep install --from-paths . --ignore-src
+cd ..
 catkin_make
 ```
 
